@@ -45,8 +45,8 @@ maxContainer = 100
 autolootmode = 2
 
 -- Version Manual
-clientVersionMin = 1100
-clientVersionMax = 1200
+clientVersionMin = 1000
+clientVersionMax = 1149
 clientVersionStr = "Only support outdated 10.00 and versions 11.00 to 11.49"
 
 -- Depot Limit
