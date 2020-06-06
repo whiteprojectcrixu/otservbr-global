@@ -598,8 +598,9 @@ end
 
 function Player.sendBestiaryEntryChanged(self, monsterID)
 	if self:getClient().version < 1200 then
-		return
+		return true
 	end
+
 	local msg = NetworkMessage()
 	msg:addByte(Bestiary.S_Packets.SendBestiaryTracker)
 	msg:addU16(monsterID)
