@@ -174,7 +174,7 @@ function onDeath(creature, corpse, killer, mostDamageKiller, lastHitUnjustified,
 
 			if con.player and con.score ~= 0 then
 				local lootMessage = {"The following items are available in your reward chest: "}
-				if stamina > 840 true then
+				if stamina > 840 then
 					reward:getContentDescription(lootMessage)
 				else
 					table.insert(lootMessage, 'nothing (due to low stamina)')
